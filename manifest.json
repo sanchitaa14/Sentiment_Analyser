@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Sentiment Analysis",
+  "version": "1.0",
+  "description": "Analyze Twitter sentiment on any topic.",
+  "permissions": ["contextMenus", "activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "iconX.png",
+      "48": "iconX.png",
+      "128": "iconX.png"
+    }
+  },
+  "icons": {
+    "16": "iconX.png",
+    "48": "iconX.png",
+    "128": "iconX.png"
+  }
+}
