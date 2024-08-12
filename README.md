@@ -29,15 +29,16 @@ This project is a Chrome extension that allows users to analyze sentiment on Twi
 **1. Clone the Repository**
 
 ``` git clone https://github.com/yourusername/twitter-sentiment-analysis-extension.git ```
+
 ``` cd twitter-sentiment-analysis-extension ```
 
 **2. Set Up the Python Backend**
    
-⋅⋅*Create a Virtual Environment:
+  * Create a Virtual Environment:
 
 ``` python -m venv venv ```
 
-⋅⋅*Activate the Virtual Environment:
+   * Activate the Virtual Environment:
 
 Windows:
 
@@ -47,16 +48,16 @@ macOS/Linux:
 
 ``` source venv/bin/activate ```
 
-  *Install Dependencies:
+  * Install Dependencies:
 
 ``` pip install -r requirements.txt ```
 
-  *Set Up Twitter API Credentials:
+  * Set Up Twitter API Credentials:
 
-Obtain your Twitter API credentials from the Twitter Developer Portal.
-Replace YOUR_BEARER_TOKEN in app.py with your actual Bearer Token.
+1. Obtain your Twitter API credentials from the Twitter Developer Portal.
+2. Replace YOUR_BEARER_TOKEN in app.py with your actual Bearer Token.
 
-  *Run the Flask Server:
+  * Run the Flask Server:
 
 ``` python app.py ```
 
@@ -74,19 +75,19 @@ Replace YOUR_BEARER_TOKEN in app.py with your actual Bearer Token.
 
 1. Right-Click Context Menu:
 
-  *Highlight text on any webpage.
+  * Highlight text on any webpage.
   
-  *Right-click and choose "Analyze Sentiment on Twitter".
+  * Right-click and choose "Analyze Sentiment on Twitter".
   
-  *A new tab will open with sentiment analysis results.
+  * A new tab will open with sentiment analysis results.
 
 2. Popup Interface:
 
-  *Click on the extension icon in the Chrome toolbar.
+  * Click on the extension icon in the Chrome toolbar.
   
-  *Enter a topic and click "Analyze Sentiment".
+  * Enter a topic and click "Analyze Sentiment".
   
-  *View the sentiment results displayed in the popup.
+  * View the sentiment results displayed in the popup.
 
 ## Troubleshooting
 1. CORS Issues: Ensure that CORS is enabled in your Flask app by using flask-cors.
