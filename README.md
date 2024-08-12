@@ -10,13 +10,19 @@ This project is a Chrome extension that allows users to analyze sentiment on Twi
   * Real-Time Analysis: Fetch sentiment results from Twitter and display them instantly.
 
 ## Project Structure
-⋅⋅* manifest.json: Defines the extension's settings and permissions.
-⋅⋅* background.js: Handles context menu creation and API requests.
-⋅⋅* popup.html: Provides the user interface for entering topics and displaying results.
-⋅⋅* popup.js: Manages interactions in the popup, such as sending requests and displaying results.
-⋅⋅* styles.css: Contains styles for the popup interface.
-⋅⋅* app.py: Flask backend to process sentiment analysis requests.
-⋅⋅* requirements.txt: Lists the Python dependencies.
+  * manifest.json: Defines the extension's settings and permissions.
+
+  * background.js: Handles context menu creation and API requests.
+    
+  * popup.html: Provides the user interface for entering topics and displaying results.
+    
+  * popup.js: Manages interactions in the popup, such as sending requests and displaying results.
+
+  * styles.css: Contains styles for the popup interface.
+    
+  * app.py: Flask backend to process sentiment analysis requests.
+
+  * requirements.txt: Lists the Python dependencies.
 
 ## Installation
 
@@ -39,18 +45,18 @@ Windows:
 
 macOS/Linux:
 
-```source venv/bin/activate```
+``` source venv/bin/activate ```
 
-⋅⋅*Install Dependencies:
+  *Install Dependencies:
 
 ``` pip install -r requirements.txt ```
 
-⋅⋅*Set Up Twitter API Credentials:
+  *Set Up Twitter API Credentials:
 
 Obtain your Twitter API credentials from the Twitter Developer Portal.
 Replace YOUR_BEARER_TOKEN in app.py with your actual Bearer Token.
 
-⋅⋅*Run the Flask Server:
+  *Run the Flask Server:
 
 ``` python app.py ```
 
@@ -68,15 +74,19 @@ Replace YOUR_BEARER_TOKEN in app.py with your actual Bearer Token.
 
 1. Right-Click Context Menu:
 
-⋅⋅*Highlight text on any webpage.
-⋅⋅*Right-click and choose "Analyze Sentiment on Twitter".
-⋅⋅*A new tab will open with sentiment analysis results.
+  *Highlight text on any webpage.
+  
+  *Right-click and choose "Analyze Sentiment on Twitter".
+  
+  *A new tab will open with sentiment analysis results.
 
 2. Popup Interface:
 
-⋅⋅*Click on the extension icon in the Chrome toolbar.
-⋅⋅*Enter a topic and click "Analyze Sentiment".
-⋅⋅*View the sentiment results displayed in the popup.
+  *Click on the extension icon in the Chrome toolbar.
+  
+  *Enter a topic and click "Analyze Sentiment".
+  
+  *View the sentiment results displayed in the popup.
 
 ## Troubleshooting
 1. CORS Issues: Ensure that CORS is enabled in your Flask app by using flask-cors.
