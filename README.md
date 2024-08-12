@@ -3,11 +3,11 @@ This project is a Chrome extension that allows users to analyze sentiment on Twi
 
 ## Features
 
-⋅⋅* Context Menu Integration: Right-click on selected text to analyze sentiment.
+  * Context Menu Integration: Right-click on selected text to analyze sentiment.
 
-⋅⋅* Popup Interface: Enter a topic and view sentiment analysis results.
+  * Popup Interface: Enter a topic and view sentiment analysis results.
 
-⋅⋅* Real-Time Analysis: Fetch sentiment results from Twitter and display them instantly.
+  * Real-Time Analysis: Fetch sentiment results from Twitter and display them instantly.
 
 ## Project Structure
 ⋅⋅* manifest.json: Defines the extension's settings and permissions.
